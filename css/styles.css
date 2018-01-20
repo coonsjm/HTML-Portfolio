@@ -37,6 +37,7 @@ footer {
 /* Classes, from top to bottom */
 .name {
   float: right;
+  text-align: right;
   margin-right: 10px;
 }
 
