@@ -1,0 +1,51 @@
+/* Standard Elements */
+header {
+  height: 100px;
+  border-bottom-width: medium;
+  border-bottom-style: solid;
+  border-bottom-color: #7d97ad;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2, h3 {
+  color: #7d97ad;
+}
+
+figcaption {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 20px;
+  border-top-width: medium;
+  border-top-style: solid;
+  border-top-color: #7d97ad;
+  margin-top: 40px;
+}
+
+/* Header Logo ID */
+#logo {
+  width: 100px;
+  height: 100px;
+}
+
+/* Classes, from top to bottom */
+.name {
+  float: right;
+  margin-right: 10px;
+}
+
+.work-image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.project {
+  font-weight: 600;
+  font-size: 16px;
+}
