@@ -32,13 +32,13 @@ footer {
 #logo {
   width: 100px;
   height: 100px;
+  float: left;
 }
 
 /* Classes, from top to bottom */
 .name {
   float: right;
   text-align: right;
-  margin-right: 10px;
 }
 
 .work-image {
