@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <!-- Metadata -->
   <title>Front-End Development Superstar | Justin Coons</title>
@@ -14,10 +14,12 @@
 </head>
 <body class="container">
   <header class="row">
-      <img id="logo" src="img/hamburger.png" alt="Justin Coons">
-      <div class="name">
+      <div class="col-md-4">
+          <img id="logo" src="img/hamburger.png" alt="Justin Coons">
+      </div>
+      <div class="col-md-6 name">
           <h1>Justin Coons</h1>
-          <p align="right">Front-End Development Superstar</p>
+          <p>Front-End Development Superstar</p>
       </div>
   </header>
   <!-- Start Work Samples -->
@@ -27,26 +29,26 @@
               <h2>Featured Work</h2>
           </div>
       </div>
-      <div class="row">
-          <div class="col-md-4">
+      <main class="row">
+          <article class="col-md-4">
               <figure>
                   <img class="work-image" src="img/yodelr.png" alt="Yodelr Dating App">
                   <figcaption><span class="project">Yodelr:</span> A Dating App for Bavarians</figcaption>
               </figure>
-          </div>
-          <div class="col-md-4">
+          </article>
+          <article class="col-md-4">
               <figure>
                   <img class="work-image" src="img/salad.png" alt="Salad Social Networking">
                   <figcaption><span class="project">Sal.ad:</span> Kale-Based Social Networking</figcaption>
               </figure>
-          </div>
-          <div class="col-md-4">
+          </article>
+          <article class="col-md-4">
               <figure>
                   <img class="work-image" src="img/avocadomobile.png" alt="The Avocadomobile">
                   <figcaption><span class="project">Avocadomobile:</span> Self-Driving Superfood</figcaption>
               </figure>
-          </div>
-      </div>
+          </article>
+      </main>
       <!-- End Work Samples-->
       <div class="row">
           <div class="col-md-12">
@@ -56,8 +58,10 @@
               <p>Using only a hoe and a large glass of water, I once single-handedly defended a small village in the Amazon Basin from a horde of ferocious army ants. I play bluegrass cello, I was scouted by the Mets. I am the subject of numerous documentaries. When I’m bored, I build large suspension bridges in my yard. I enjoy urban hang gliding. On Wednesdays, after school, I repair electrical appliances free of charge.</p>
           </div>
       </div>
-    <footer>
-          <p>Credit: 'About Me' cribbed from Hugh Gallagher's <a href="http://blogs.harvard.edu/sj/i-am-a-dynamic-figure/" alt="Source text" target="_blank">famous 1989 essay</a>.</p>
+    <footer class-"row">
+          <div class="col-md-12">
+              <p>Credit: 'About Me' cribbed from Hugh Gallagher's <a href="http://blogs.harvard.edu/sj/i-am-a-dynamic-figure/" target="_blank">famous 1989 essay</a>.</p>
+          </div>
     </footer>
 </body>
 </html>
